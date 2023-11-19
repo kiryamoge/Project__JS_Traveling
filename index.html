@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trevland</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gelasio:wght@500;700&family=Ribeye&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/destyle.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="./script.js" type="module" defer></script>
+    <script src="./cards.js" type="module" defer></script>
+    <script src="./@mail.js" type="module" defer></script>
+    <script src="./popup.js" type="module" defer></script>
+    <script src="./video.js" type="module" defer></script>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="flex__header">
+          <div class="flex__p_logo">
+            <p class="p__logo">Trevland</p>
+          <a href="#">
+            <img class="mob-menu" src="images/menu__link.png" alt="mob-menu" />
+          </a>
+          </div>
+          <div class="flex__header-a">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Location</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Contact</a></li>
+            </ul>
+          </div>
+          <div class="flex__header-button">
+            <div class="popup__bg">
+              <form class="popup">
+                <a type="a" uk-close aria-label="Закрыть" class="close-popup">Close</a>
+                <label>
+                  <input type="text" name="name" />
+                  <div class="label__text">Ваше имя</div>
+                </label>
+                <label>
+                  <input type="tel" name="tel" />
+                  <div class="label__text">Ваш телефон</div>
+                </label>
+                <label>
+                  <textarea name="message"></textarea>
+                  <div class="label__text">Ваше сообщение</div>
+                </label>
+                <button type="submit">Отправить</button>
+              </form>
+            </div>
+            <button class="header-button">Contact us</button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="basic">
+        <div class="container">
+          <div class="main__basic">
+            <h1>Railtrips To Here, There And Everywhere!</h1>
+            <p>
+              We all wish to start our year the best way possible and also
+              according to a common belief if you have a great start to your.
+            </p>
+            <button class="main-button">Explore more</button>
+            <div class="video" style="display: none;">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/uCNWuSbPnt4?si=_t2kqoYD7bM9eDYj"
+                title="YouTube video player"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="main__two">
+        <div class="container">
+          <div class="main__title">
+            <h2 class="main__h2-one">Popular Location</h2>
+            <p class="main__p-one">
+              For every one of us, travel came first. We’ve spent years living
+              as nomads, pioneers, and voyagers— from island hopping
+            </p>
+          </div>
+          <div class="one__cards">
+            <div class="one__card">
+              <div class="one__img">
+                <img src="./images/one__vard-one.svg" alt="Istanbul, Turkey" />
+              </div>
+              <div class="one__descr">
+                <h3 class="h3__deskr">Istanbul, Turkey</h3>
+                <p class="p__deskr">
+                  Istanbul is a major city in Turkey that straddles Europe.
+                </p>
+              </div>
+            </div>
+            <div class="one__card">
+              <div class="one__img">
+                <img
+                  src="./images//one__card-two.svg"
+                  alt="Kuala Lumpur, malaysia"
+                />
+              </div>
+              <div class="one__descr">
+                <h3 class="h3__deskr">Kuala Lumpur, malaysia</h3>
+                <p class="p__deskr">
+                  A 272-step long trek leads you to this century.
+                </p>
+              </div>
+            </div>
+            <div class="one__card">
+              <div class="one__img">
+                <img
+                  src="./images/one__card-three.svg"
+                  alt="Seoul, South Korea"
+                />
+              </div>
+              <div class="one__descr">
+                <h3 class="h3__deskr">Seoul, South Korea</h3>
+                <p class="p__deskr">
+                  South Korea officially the Republic of Korea is a country in
+                  East Asia.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section>
+          <div class="container">
+            <div class="main__title">
+              <h2 class="main__h2-one">Special Offers</h2>
+              <p class="main__p-one-two">
+                With the New Year comes a refreshing sense of wanderlust, a
+                longing in our souls to escape to warmer climates
+              </p>
+            </div>
+            </div>
+            <div class="slider">
+              <div class="slider__container">
+                <div class="slide">
+                  <div class="images_slide">
+                    <img src="images/slide__one.svg" alt="slide__one" />
+                  </div>
+                  <div class="slide__descr">
+                    <h5 class="slide__h5">Statue of Liberty</h5>
+                    <div class="div__lok">
+                      <img src="images/icon-loc.svg" alt="loc"> <p class="slide__p">New York</p>
+                    </div>
+                    <p class="slide__p">4 Day 5 Nights</p>
+                    <p class="slide__p"><span>$400</span>/person</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="images_slide">
+                    <img src="images/slide__two.svg" alt="slide__two" />
+                  </div>
+                  <div class="slide__descr">
+                    <h5 class="slide__h5">The Great Wall</h5>
+                    <div class="div__lok">
+                      <img src="images/icon-loc.svg" alt="loc"> <p class="slide__p">China</p>
+                    </div>
+                    <p class="slide__p">7 Day 8 Nights</p>
+                    <p class="slide__p"><span>$850</span>/person</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="images_slide">
+                    <img src="images/slide__three.svg" alt="slide__three" />
+                  </div>
+                  <div class="slide__descr">
+                    <h5 class="slide__h5">Dizin</h5>
+                    <div class="div__lok">
+                      <img src="images/icon-loc.svg" alt="loc"> <p class="slide__p">Iran</p>
+                    </div>
+                    <p class="slide__p">5 Day 6 Nights</p>
+                    <p class="slide__p"><span>$550</span>/person</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="images_slide">
+                    <img src="images/slide__four.svg" alt="slide__four" />
+                  </div>
+                  <div class="slide__descr">
+                    <h5 class="slide__h5">Sajek Valley</h5>
+                    <div class="div__lok">
+                      <img src="images/icon-loc.svg" alt="loc"> <p class="slide__p">Bangladesh</p>
+                    </div>
+                    <p class="slide__p">3 Day 4 Nights</p>
+                    <p class="slide__p"><span>$400</span>/person</p>
+                  </div>
+                </div>
+                <div class="slide">
+                  <div class="images_slide">
+                    <img src="images/slide__five.svg" alt="slide__five" />
+                  </div>
+                  <div class="slide__descr">
+                    <h5 class="slide__h5">Osaka Castle</h5>
+                    <div class="div__lok">
+                      <img src="images/icon-loc.svg" alt="loc"> <p class="slide__p">Japan</p>
+                    </div>
+                    <p class="slide__p">4 Day 5 Nights</p>
+                    <p class="slide__p"><span>$700</span>/person</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#" class="slider_navigation action-prev" data-dir="prev"
+                ><span><</span></a>
+              <a href="#" class="slider_navigation action-next" data-dir="next"
+                ><span>></span></a>
+            </div>
+      </section>
+      <section>
+        <div class="container">
+          <div class="main__title">
+            <h2 class="main__h2-one">From Blog & News</h2>
+            <p class="main__p-two">
+              Welcome to Community Conversations, a new interview series
+              featuring Intrepid travellers, creatives and activists in our
+              community
+            </p>
+          </div>
+          <div class="three__cards">
+            <div class="three__card_left">
+              <div class="left__img">
+                <img src="./images/three-left.svg" alt="Banff National Park">
+              </div>
+              <div class="left_descr">
+                <h4 class="three__four">Banff National Park</h4>
+                <p class="left_three_p">Banff National Park lies in the heart of the majestic Rocky Mountains in the province of Alberta, and showcases some of Canada's most beautiful scenery. Turquoise-colored lakes, snow-capped peaks, and glaciers are all easily accessible</p>
+                <a href="#" class="three__a"><p>@thomasalva_adison</p></a>
+              </div>
+            </div>
+            <div class="three__card_right">
+              <div class="right__three">
+                <div class="right__img">
+                  <img src="./images/three-right-one.svg" alt="The Hiroshima Peace!">
+                </div>
+                <div class="right__descr">
+                  <h4 class="three__four">The Hiroshima Peace!</h4>
+                  <p class="right__p">It was formally opened to the public in August that year.</p>
+                  <a href="#" class="three__a"><p>@shova_bd88</p></a>
+                </div>
+              </div>
+              <div class="right__three">
+                <div class="right__img">
+                  <img src="./images/three-right-two.svg" alt="The faithful prayers!">
+                </div>
+                <div class="right__descr">
+                  <h4 class="three__four">The faithful prayers!</h4>
+                  <p class="right__p">A major pilgrimage center for Hindus, the holy city.</p>
+                  <a href="#" class="three__a"><p>@adem/smith</p></a>
+                </div>
+              </div>
+              <div class="right__three">
+                <div class="right__img">
+                  <img src="./images/three-right-three.svg" alt="Colourful waters!">
+                </div>
+                <div class="right__descr">
+                  <h4 class="three__four">Colourful waters!</h4>
+                  <p class="right__p">Forest-driven water and energy cycles are poorly.</p>
+                  <a href="#" class="three__a"><p>@jhon7leew</p></a>
+                </div>
+              </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <section class="footer__background">
+        <div class="container">
+          <div class="big__footer">
+            <div class="footer__one">
+              <p class="p__logo-two">Trevland</p>
+              <a href="#" class="footer__a__one"><p>Contact us</p></a>
+              <a href="#" class="footer__a__one"><p>@shovasatkhira88.com</p></a>
+              <div class="footer__network">
+                <a href="#"><img src="images//facebook.svg" alt="facebook"/></a>
+                <a href="#"><img src="images/instagram.svg" alt="instagram"/></a>
+                <a href="#"><img src="images/twitter.svg" alt="twitter" /></a>
+                <a href="#"><img src="images/group.svg" alt="group" /></a>
+              </div>
+            </div>
+            <div class="footer__two">
+              <a href="#" class="p__a"><p>Services</p></a>
+              <a href="#" class="p__a"><p>About</p></a>
+              <a href="#" class="p__a"><p>Our story</p></a>
+              <a href="#" class="p__a"><p>Benefits</p></a>
+              <a href="#" class="p__a"><p>Branding</p></a>
+            </div>
+            <div class="footer__three">
+              <a href="#" class="a__p"><p>Legal</p></a>
+              <a href="#" class="a__p"><p>Terms & Conditions</p></a>
+              <a href="#" class="a__p"><p>Privecy Policy</p></a>
+              <a href="#" class="a__p"><p>Terms of use</p></a>
+            </div>
+            <div class="footer__four">
+              <h3 class="footer__h3">SUBSCRIBE NOW</h3>
+              <form action="#" class="form__footer">
+                <div class="footer__search">
+                  <input type="search" placeholder="Enter email" />
+                  <button type="button" class="footer__search-button">Send</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
